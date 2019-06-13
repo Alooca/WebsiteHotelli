@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+input{
+    
+    body{
+        /*background-image: url("IMAGENS/paisagem-natural-1024x679.jpg");*/
+    }
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color:black;
+    font-family: arial;
+    outline: none;
+
+}
+
+div#corpo-form{
+    width:420px;
+    margin: 160px auto 0px auto;
+}
+
+div#corpo-form-cad{
+    width:420px;
+    margin: 80px auto 0px auto;
+}
+div#corpo-form h1{
+    
+
+text-align: center;
+    padding: 20px;
+}
+ div#corpo-form-cad h1
+ {
+   text-align: center;
+    padding: 20px;
+ }
+ 
+input[type=submit]{
+    background-color: #eb8300;
+    border: none;
+    width: 400px;
+    cursor: pointer;
+
+}
+div#msg-sucesso{
+    width:420px;
+    margin: 10px auto ;
+    padding: 10px;
+    background-color: rgba (50,205,50,.3);
+    border: 1px solid rgb(34,139,34);
+}
+div#msg-erro{
+    width:420px;
+    margin: 10px auto ;
+    padding: 10px;
+    background-color: rgba (250,128,144,.3);
+    border: 1px solid rgb(165,42,42);
+}
